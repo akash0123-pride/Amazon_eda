@@ -1,0 +1,58 @@
+# Amazon EDA Project
+
+## Project Overview
+This project performs an Exploratory Data Analysis (EDA) on an Amazon-related dataset to uncover meaningful insights, identify patterns, and better understand the data. Through visualizations and statistical analysis, we aim to explore relationships between key variables and highlight trends that could drive business decisions.
+
+## Dataset Description
+The dataset contains information about Amazon’s products, customer reviews, ratings, and sales. Key columns include:
+- **Product ID**: Unique identifier for each product
+- **Product Name**: Name/Title of the product
+- **Category**: Product category (e.g., Electronics, Home & Kitchen)
+- **Price**: Price of the product in USD
+- **Rating**: Average customer rating (out of 5)
+- **Number of Reviews**: Total number of customer reviews
+- **Sales**: Number of units sold
+
+## Objectives
+- Clean and preprocess the data
+- Handle missing values and outliers
+- Understand the distribution of key features
+- Visualize correlations between variables
+- Identify top-performing and low-performing products
+- Analyze the relationship between price, ratings, and sales
+
+## Tools & Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Data Cleaning
+- Handled missing values through imputation
+- Removed or adjusted outliers
+- Standardized column names and data types
+
+## Visualizations
+- **Pair Plot**: To see pairwise relationships between numerical features
+- **Heatmap**: For visualizing correlations
+- **Bar Charts**: To identify top-rated and best-selling products
+- **Box Plots**: To analyze price distribution and outliers
+- **3D Plots**: To explore multi-variable relationships
+
+## Insights
+- High-priced products generally receive fewer reviews but higher ratings
+- Categories like Electronics dominate in sales volume
+- A strong correlation exists between the number of reviews and overall sales
+- Ratings around 4.5 tend to have higher sales compared to lower-rated products
+
+## Future Work
+- Perform sentiment analysis on customer reviews
+- Build a predictive model for sales forecasting
+- Identify seasonal trends in product sales
+
+## Conclusion
+The EDA provides a comprehensive understanding of Amazon’s product performance and customer preferences. These insights can help drive pricing strategies, inventory management, and marketing efforts.
+
+## Author
+Akash Pathak
